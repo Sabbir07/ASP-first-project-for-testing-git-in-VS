@@ -9,11 +9,13 @@ namespace MyFirstWebApp
 {
     public partial class Default : System.Web.UI.Page
     {
+        //Actually did nothing in this class
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
+        //all changes and coding done in this class only
         protected void okButton_Click(object sender, EventArgs e)
         {
             string firstName1 = firstNameTextBox.Text;
